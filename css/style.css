@@ -1,45 +1,44 @@
 body {
-  background-color: rgb(85, 199, 244);
   margin: 0;
+	overflow: scroll;
 }
 
-.container {
-	width: 100%;
-	margin: 0;
+hr {
+	border-color: black;
+}
+
+.row {
+	/*line-height: 100vh;*/
 }
 
 .title {
-	width: 100%;
-	height: 100%;
-	background-color: blue;
+	background-color: rgb(66, 244, 182);
+	color: white;
+	height: 100vh;
+	text-align: center;
+	font-family: Arial;
 	margin: 0;
-	border-collapse: collapse;
-} 
+	padding: 1px 0 0 0;
+	/*line-height: 100vh;*/
+}
 
 .about {
-	width: 100%;
-	height: 100%;
-	background-color: red;
+	background: rgb(218, 232, 227);
+	height: 100vh;
+	padding: 1px 0 0 0;
+	margin: 0;
+	text-align: center;
+	font-family: Arial;
+	color: black;
+
 }
 
 .contact {
-	width: 100%;
-	height: 100%;
-	background-color: green;
+	background: rgb(72, 76, 75);
+	height: 25vh;
+	color: white;
+	text-align: center;
+	font-family: Arial;
+	margin: 0;
+	padding: 1px 0 0 0 ;
 }
-
-/*
-.col-sm-12 {
-	background-color: red;
-}
-
-.row2 {
-	background-color: blue;
-}
-*/
-
-/*
-.row {
-	display: inline-block;
-}
-*/
